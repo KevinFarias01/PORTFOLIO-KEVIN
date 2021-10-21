@@ -355,7 +355,7 @@ body{
 }
 
 .services .content .card .service-icon{
-  color: #3a6cf4;
+  color: #2248af;
   font-size: 8em;
   text-align: center;
   transition: transform 0.5s ease;
@@ -370,7 +370,7 @@ body{
 }
 
 .services .content .card .info h3{
-  color: #3a6cf4;
+  color: #2248af;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
@@ -443,6 +443,7 @@ body{
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 10px;
 }
+
 
 .contact .content .row .card .contact-icon{
   color: #3a6cf4;
