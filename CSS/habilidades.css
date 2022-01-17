@@ -81,10 +81,10 @@
   
   .skills .content .col-right .bar .ui:before{ /*UI*/
     width: 95%;
-    background: #3d0138;
+    background: #6b0262;
   }
   
   .skills .content .col-right .bar .php:before{
-    width: 60%;
+    width: 90%;
     background: #6d7eb8;
   }
