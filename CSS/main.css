@@ -9,8 +9,12 @@
     background-position: center;
     background-attachment: fixed;
   }
-
   
+  @media (max-width: 880px){
+    .main {
+      background: rgb(35, 28, 95);
+    }
+  }
   
   .main .content{
     max-width: 800px;
