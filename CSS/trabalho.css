@@ -37,3 +37,8 @@
   .work .content .card .card-img img:hover{
     transform: scale(1.2);
   }
+
+  .card__legenda{
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
