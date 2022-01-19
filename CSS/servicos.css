@@ -40,6 +40,12 @@
     margin: 10px;
   }
 
-  .servicos__descricao{
+  .servicos__descricao {
     text-align: center;
+  }
+
+  @media (min-width: 1080px){
+    .services .content{
+      flex-wrap: nowrap;
+    }
   }

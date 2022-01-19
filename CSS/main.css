@@ -10,9 +10,9 @@
     background-attachment: fixed;
   }
   
-  @media (max-width: 880px){
+  @media (max-width: 780px){
     .main {
-      background: rgb(35, 28, 95);
+      background: url(../images/bg-small2.jpg);
     }
   }
   
