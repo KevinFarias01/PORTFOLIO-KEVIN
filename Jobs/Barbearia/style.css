@@ -13,6 +13,9 @@ header{
     width: 940px;
     margin: 0 auto;
 }
+h1 img{
+    width:150px
+}
 nav{
     position: absolute;
     top: 110px;
@@ -185,8 +188,11 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: url("img-produtos/bg.jpg");
+    background-color: #808080;
     padding: 15 0;
+}
+footer img{
+    width: 200px;
 }
 .copyright{
     color: white;
@@ -221,7 +227,7 @@ form label, form legend{
 .enviar{
     width: 40%;
     padding: 15px 0;
-    background: orange;
+    background: rgb(47, 0, 255);
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -231,7 +237,7 @@ form label, form legend{
     cursor: pointer;
 }
 .enviar:hover{
-    background: orangered;
+    background: rgb(255, 0, 0);
     transform: scale(1.2);
 }
 
