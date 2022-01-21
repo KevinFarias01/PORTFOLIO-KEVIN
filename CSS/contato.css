@@ -4,6 +4,11 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 20px;
+    text-decoration: none;
+  }
+
+  .contact a:visited{
+    color: #3a6cf4;
   }
   
   .contact .content .row{
@@ -12,6 +17,8 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
+
+
   
   .contact .content .row .card{
     background: #fff;

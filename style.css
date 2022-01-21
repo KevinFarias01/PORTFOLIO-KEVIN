@@ -68,12 +68,13 @@ body{
 
   header .navigation{
     display: none;
+    
   }
 
   header .navigation.active{
     z-index: 888;
     position: fixed;
-    background: #fff;
+    background: #3a6cf4;
     top: 0;
     right: 0;
     width: 380px;
@@ -87,8 +88,8 @@ body{
   }
 
   header .navigation a{
-    color: #000;
-    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
     margin: 10px;
     padding: 0 20px;
     border-radius: 20px;

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trabalhos Kevin Farias</title>
+  <title>Kevin Farias-Portfólio</title>
   <link rel="stylesheet" href="CSS/reset.css">
   <link rel="stylesheet" href="CSS/main.css">
   <link rel="stylesheet" href="CSS/botao.css">
@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="CSS/contato.css">
   <link rel="stylesheet" href="CSS/rodape.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/revelacao.css">
+  <link rel="stylesheet" href="CSS/menu.css">
+
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 
@@ -28,12 +32,13 @@
 
   <!--Cabeçalho 1 -->
   <header>
-    <a href="index.html" class="brand">Kevin Farias</a>
+    <a href="#" class="brand">Kevin Farias</a>
     <div class="menu-btn"></div>
     <div class="navigation">
-      <a href="index.html">Inicio</a>
-      <a href="#services">Serviços</a>
+      <a href="#main">Inicio</a>
+      <a href="#skills">Habilidades</a>
       <a href="#work">Trabalhos</a>
+      <a href="#services">Serviços</a>
       <a href="#contact">Contato</a>
     </div>
   </header>
@@ -43,11 +48,12 @@
     <div class="content">
       <h2>Olá! Eu sou<br><span>Kevin Farias</span></h2>
       <div class="animated-text">
-        <h3>Designer</h3>
-        <h3>Desenvolvedor Front-end</h3>
+        <h3>Web-Developer</h3>
+        <h3>Web-Designer</h3>
+        <h3>Front-end Dev.</h3>
         <h3>UI/UX Designer</h3>
       </div>
-      <a href="#work" class="btn">Veja meu Trabalho</a>
+      <a href="#work" class="btn">Portfólio</a>
       <div class="media-icons">
         <a href="https://www.linkedin.com/in/kevin-farias-586281139/" target="_blank"><i
             class="fab fa-linkedin-in"></i></a>
@@ -58,18 +64,179 @@
     </div>
   </section>
 
-  <!--Serviços-->
 
+  <!--Serviços e Habilidades-->
+
+  <section class="skills" id="skills">
+    <div class="title reveal">
+      <h2 class="section-title">Minhas Habilidades</h2>
+    </div>
+    <div class="content">
+      <div class="column col-left reveal">
+        <h2 class="content-title">Minhas Habilidades e Experiências</h2>
+        <p>Me aperfeiçoei em Web-Design, UI/UX design, Identidade Visual, e Desenvolvimento Web. Minhas criações seguem
+          sólidos conceitos do design e do Front-End, Gestalt e teoria da cor
+          sempre levando em consideração o tipo de negócio e conceitos firmes de UX/UI.
+          Desenvolvo projetos modernos, intuitivos e facilmente atualizáveis, com excelente visibilidade junto aos
+          buscadores.</p>
+
+        <a href="#work" class="btn">Trabalhos</a>
+      </div>
+      <div class="column col-right reveal">
+        <div class="bar">
+          <div class="info">
+            <span>HTML</span>
+            <span>95%</span>
+          </div>
+          <div class="line html"></div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>CSS</span>
+            <span>85%</span>
+          </div>
+          <div class="line css"></div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>Javascript</span>
+            <span>80%</span>
+          </div>
+          <div class="line javascript"></div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>Photoshop</span>
+            <span>90%</span>
+          </div>
+          <div class="line jquery"></div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>UI/UX Design</span>
+            <span>95%</span>
+          </div>
+          <div class="line ui"></div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>WordPress</span>
+            <span>90%</span>
+          </div>
+          <div class="line php"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Trabalhos-->
+
+  <section class="work" id="work">
+    <div class="title reveal">
+      <h2 class="section-title">Portfólio</h2>
+    </div>
+    <div class="content">
+      <div class="card reveal">
+        <div class="card-img">
+          <a href="Jobs/Flex-Box/flex-box.html" target=”_blank”><img src="images/img-projetos/Flex-Box.jpg"
+              alt="Cursos Flex-Box"></a>
+        </div>
+        <p class="card__legenda">Projeto Cursos CSS Flex-Box</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <a href="Jobs/Relogio/index.html" target=”_blank”><img src="images/img-projetos/Relogio.jpg"
+              alt="Relógio App"></a>
+        </div>
+        <p class="card__legenda">Relógio tela noturna CSS + JS</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <a href="Jobs/Layouts-Responsivos/index.html" target=”_blank”><img src="images/img-projetos/Apeperia.jpg"
+              alt="Apeperia Site"></a>
+        </div>
+        <p class="card__legenda">Site Apeperia -> HTML CSS Responsivo</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <img src="images/img-projetos/Android.jpg" alt="Foto Android">
+        </div>
+        <p class="card__legenda">História Android-> HTML CSS Responsivo</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <img src="images/img-projetos/Analisador.jpg" alt="Analisador de Números">
+        </div>
+        <p class="card__legenda">Analisador de Nº JS + HTML</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <img src="images/img-projetos/Receitas.jpg" alt="Receitas">
+        </div>
+        <p class="card__legenda">Site Responsivo Receitas 1.0</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <a href="Jobs/Flex-Box/flex-box.html"><img src="images/img-projetos/Flex-Box.jpg" alt="Cursos Flex-Box"></a>
+        </div>
+        <p class="card__legenda">Projeto Cursos CSS Flex-Box</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <a href="Jobs/Relogio/index.html"><img src="images/img-projetos/Relogio.jpg" alt="Relógio App"></a>
+        </div>
+        <p class="card__legenda">Relógio tela noturna CSS + JS</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <a href="Jobs/Layouts-Responsivos/index.html"><img src="images/img-projetos/Apeperia.jpg"
+              alt="Apeperia Site"></a>
+        </div>
+        <p class="card__legenda">Site Apeperia -> HTML CSS Responsivo</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <img src="images/img-projetos/Android.jpg" alt="Foto Android">
+        </div>
+        <p class="card__legenda">História Android-> HTML CSS Responsivo</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <img src="images/img-projetos/Analisador.jpg" alt="Analisador de Números">
+        </div>
+        <p class="card__legenda">Analisador de Nº JS + HTML</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-img">
+          <img src="images/img-projetos/Receitas.jpg" alt="Receitas">
+        </div>
+        <p class="card__legenda">Site Responsivo Receitas 1.0</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Serviços-->
 
   <section class="services" id="services">
     <div class="title reveal">
       <h2 class="section-title">Meus Serviços</h2>
-      <p class="servicos__descricao">Atualmente sou um designer freelance e
-        desenvolvedor web, que trabalha com uma
+      <p>Atualmente sou um Web-designer freelancer e
+        desenvolvedor web, que já trabalhou com uma
         variedade de clientes e em diversos projetos.</p>
     </div>
     <div class="content">
-
+      <div class="card reveal">
+        <div class="service-icon">
+          <i class="fas fa-palette"></i>
+        </div>
+        <div class="info">
+          <h3>Design Gráfico</h3>
+          <p>Criação de projetos gráficos, trabalhos exclusivos para o público determinado. Folders, cartões, folhetos,
+            informativos, anúncios, entre outros tipos de materiais gráficos.</p>
+        </div>
+      </div>
       <div class="card reveal">
         <div class="service-icon">
           <i class="fas fa-object-group"></i>
@@ -100,75 +267,7 @@
     </div>
   </section>
 
-  <!--Trabalhos-->
-
-  <section class="work" id="work">
-    <div class="title reveal">
-      <h2 class="section-title">Trabalhos</h2>
-    </div>
-    <div class="content">
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/Abacaxi.png" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work2.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work3.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work4.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work5.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work6.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/Abacaxi.png" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work2.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work3.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work4.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work5.jpg" alt="">
-        </div>
-      </div>
-      <div class="card reveal">
-        <div class="card-img">
-          <img src="images/work6.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
+  <!--Contato-->
 
   <section class="contact" id="contact">
     <div class="title reveal">
@@ -231,28 +330,11 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="contact-form reveal">
-          <h3>Envie uma Mensagem</h3>
-          <div class="input-box">
-            <input type="text" name="" value="" placeholder="Nome">
-          </div>
-          <div class="input-box">
-            <input type="text" name="" value="" placeholder="E-mail">
-          </div>
-          <div class="input-box">
-            <textarea name="name" rows="8" cols="80" placeholder="Mensagem"></textarea>
-          </div>
-          <div class="input-box">
-            <input type="submit" class="send-btn" name="" value="Enviar">
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
   <footer class="footer">
-    <span class="footer-title">Kevin Farias</span>
+    <a href="index.html"> <span class="footer-title">Kevin Farias</span></a>
   </footer>
 
   <script src="script.js" charset="utf-8"></script>
