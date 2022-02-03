@@ -13,7 +13,20 @@ Temas:
 * Espadas;
 
 
+Fonte: 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+font-family: 'Montserrat', sans-serif;
+
+
 Cores :  
+
+Azul Escuro: #0D2170
+Vermelho: #BE1B17
+Vermelho Escuro: #710010
+Preto: #000000
+Branco: #FFFFFF
 
 Texto-História 1
 
