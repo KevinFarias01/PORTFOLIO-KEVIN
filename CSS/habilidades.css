@@ -34,21 +34,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 5px;
+    
   }
   
   .skills .content .col-right .bar .info span{
     font-size: 18px;
     font-weight: 500;
+    margin-bottom: 10px;
   }
-  
-  .skills .content .col-right .bar .line{
-    position: relative;
-    width: 100%;
-    height: 15px;
-    background: #ccc;
-    border-radius: 2px;
-  }
+
   
   .skills .content .col-right .bar .line:before{
     content: '';
@@ -59,32 +53,9 @@
     border-radius: 2px;
   }
   
-  .skills .content .col-right .bar .html:before{
-    width: 95%;
-    background: #e45126;
-  }
-  
-  .skills .content .col-right .bar .css:before{
-    width: 90%;
-    background: #0c73b8;
-  }
-  
-  .skills .content .col-right .bar .javascript:before{
-    width: 80%;
-    background: #e3a324;
-  }
-  
-  .skills .content .col-right .bar .jquery:before{ /*Photoshop*/
-    width: 90%;
-    background: #04064d;
-  }
-  
-  .skills .content .col-right .bar .ui:before{ /*UI*/
-    width: 95%;
-    background: #6b0262;
-  }
-  
-  .skills .content .col-right .bar .php:before{
-    width: 90%;
-    background: #6d7eb8;
+
+  .skills .info .html{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 108, 108);
+    border-radius: 5px;
   }
